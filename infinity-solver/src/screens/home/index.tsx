@@ -16,7 +16,7 @@ export default function Home() {
         ctx.lineWidth = 3; // Brush Size
       }
     }
-  });
+  },[]);
 
   const startDrawing = (e: React.MouseEvent<HTMLCanvasElement>) => {
     const canvas = canvasRef.current;
@@ -62,6 +62,7 @@ export default function Home() {
         onMouseDown={startDrawing}
         onMouseOut={stopDrawing}
         onMouseUp={stopDrawing}
+        onMouseMove={draw}
       />
     </>
   );
