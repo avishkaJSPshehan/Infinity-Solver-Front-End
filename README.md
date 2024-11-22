@@ -102,5 +102,5 @@ For any questions, feel free to reach out via [GitHub](https://github.com/avishk
 
 ## 🌐 Links
 
-- [Infinity Solver Back-End Repository](link-to-back-end-repo)  
+- [Infinity Solver Back-End Repository]([link-to-back-end-repo](https://github.com/avishkaJSPshehan/Infinity-Solver-Back-End))  
 - [Live Demo (if available)](link-to-live-demo)  
