@@ -48,6 +48,7 @@ export default function Home() {
     const canvas = canvasRef.current;
 
     if (canvas) {
+      console.log('Sending Data...', `${import.meta.env.VITE_API_URL}/calculate`);
       const response = await axios({
         method: "post",
         url: `${import.meta.env.VITE_API_URL}/calculate`,
